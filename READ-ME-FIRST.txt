@@ -1,0 +1,34 @@
+FUNKYTOWN — LATEST COLORFUL MERCH STORE
+
+UPLOAD TO YOUR SERVER
+1. In cPanel File Manager, create public_html/funkytown (or a folder in your domain document root).
+2. Upload this ZIP to that folder and extract it.
+3. Confirm index.html and assets/ are directly inside the funkytown folder.
+4. Open https://YOUR-DOMAIN.com/funkytown/ and share that URL.
+For your main domain, extract directly into the domain document root. Back up any existing site first.
+
+No installation, build process, PHP, Node server or database is required.
+Use HTTP/HTTPS hosting. Double-clicking index.html can block the JavaScript module used for 3D.
+Your server must serve .js files with a JavaScript MIME type.
+Keep filenames and the assets folder structure unchanged. Subfolder hosting is supported.
+
+INCLUDED
+Latest bold black/gold/cyan/coral layout, official logo and all three artworks,
+responsive styling, 3D tee viewer with animated fallback, product/color/size
+selection, browser-local bag, and bundled Three.js with its license.
+
+DEMO LIMITATIONS
+Product names, prices, colors and sizing are illustrative.
+The bag stays in each visitor's browser. No orders are submitted.
+Payments, inventory, shipping, taxes and order emails are not connected.
+The 3D viewer requires WebGL. Full 3D could not be visually verified in the preview browser; the fallback was checked.
+Google Fonts requires internet; system font fallbacks are included.
+Garments are conceptual mockups using the supplied official graphics.
+
+EDITING
+index.html: page content and sections
+style.css and funk.css: appearance and responsive layout
+app.js: products, selections and demo cart
+three-store.js: 3D viewer
+assets/: official artwork and bundled Three.js library
+Demo prices appear in both index.html and app.js; update both when finalizing.
